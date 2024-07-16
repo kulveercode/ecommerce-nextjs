@@ -41,7 +41,7 @@ const Header = () => {
     <header className={`w-full h-[50px] md:h-[80px] bg-white flex items-center justify-between z-20 sticky top-0 transition-transform duration-300 ${show}`}>
       <Wrapper className="flex h-[60px] justify-between items-center">
       <Link href="/">
-        <Image src="https://png.pngtree.com/png-clipart/20200727/original/pngtree-e-commerce-logo-template-png-image_5066821.jpg" alt="logo" width={150} height={40} />
+      <h1 className='text-2xl font-bold'>E-commerce</h1>
       </Link>
       <Menu 
         showCatMenu={showCatMenu} 
